@@ -47,3 +47,16 @@ $ php script.php --input="data/file.xml" --output="results/result.txt"
 
 - Try to avoid using full stack frameworks (like Symfony or Laravel). Standalone libraries or components are obviously acceptable.
 - Try to follow an OOP approach. Don't be afraid of "over-engineering" that tool. This task obviously is simple and could be done in a few lines of code but we're interested in your OOP knowledge.
+
+## Setup
+
+Clone the repository and run from the within the projects base directory
+```bash
+composer install
+```
+
+Run the following to run the tests;
+```bash
+./vendor/bin/phpunit tests/FileTest.php
+./vendor/bin/phpunit tests/InputParametersTest.php
+```
